@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* 1. 비활성화 된 상태 */
+        input:disabled{
+            background-color: lightgray;
+            color: gray;
+        }
+        /* 2. 체크된 상태 */
+        input:checked{
+            accent-color: lightblue;
+        }
+        /* 3. 포커스를 받는 상태 */
+        input:focus{
+                background-color: blueviolet;
+        }
+        /* 4. 사용 가능한 상태를 표시 */
+        input:enabled{
+            border: 2px solid blue;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <h2>회원가입</h2>
+    
+    <p>
+        이름:
+        <input type="text" placeholder="이름을 입력하세요">
+    </p>
+
+    <p>
+        학번:
+        <input type="text" value="20260929" disabled>
+    </p>
+
+    <p>
+        <input type="checkbox">
+        개인정보 수집에 동의합니다.
+    </p>
+
+</body>
+</html>
