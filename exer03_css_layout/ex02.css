@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(218, 215, 215);
+}
+.header{
+    font-family: 'Malgun Gothic';
+    background: rgb(18, 38, 61);
+    color: white;
+    text-align: center;
+    padding: 26px;
+    height: 120px;
+}
+
+.menu{
+    overflow: hidden;
+    font-family: 'Malgun Gothic';
+    background-color: rgb(42, 71, 125);
+}
+
+.menu_option{
+    float: left;
+    width: 20%;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    padding:  15px 0;
+    text-align: center;
+}
+
+.main{
+    font-family: 'Malgun Gothic';
+    overflow: hidden;
+    background-color: rgb(254, 254, 254);
+    padding: 0;
+}
+
+.intro{
+    float:left;
+    width: 75%;
+}
+.intro h2{
+    color: rgb(15, 15, 58);
+    padding: 20px;
+}
+.intro p{
+    padding: 15px;
+}
+
+.side_bar { 
+    float: left; 
+    width: 25%; 
+    background-color: rgb(214, 225, 247);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.side_bar h3 { 
+    color: midnightblue;
+    padding: 20px
+}
+
+.item_02 {
+    background: white;
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer {
+    font-family: 'Malgun Gothic';
+    background-color: rgb(3, 35, 35);
+    color: white;
+    text-align: center;
+    padding: 15px;
+
+}
