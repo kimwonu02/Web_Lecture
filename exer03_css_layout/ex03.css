@@ -1,0 +1,64 @@
+.body{
+    width: 800px;
+    margin: 20px auto;
+}
+
+.header{
+    font-family: 'Malgun Gothic';
+    background-color: rgb(163, 30, 30);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    height: 120px;
+}
+
+.menu{
+    font-family: 'Malgun Gothic';
+    overflow: hidden;
+}
+
+.menu-option{
+    width: 19.7%;
+    float: left;
+    background-color: rgb(192, 21, 21);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 15px 0;
+    margin: 0 1px;
+
+}
+
+.container{
+    overflow: hidden;
+    padding: 0;
+    height: 300px;
+}
+
+.sidebar-1{
+    font-family: 'Malgun Gothic';
+    float: left;
+    width: 168px;
+    background-color: #ffd3d3;
+    text-align: left;
+    text-weight: bold;
+    padding: 10px;
+    height: 300px;
+}
+
+.sidebar-1 h3{
+    color: brown;
+}
+
+.main{
+    float: left;
+    width: 65%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main
+
+.footer{
+    font-family: 'Malgun Gothic'
+}
