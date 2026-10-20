@@ -30,6 +30,7 @@
 }
 
 .container{
+    font-family: 'Malgun Gothic';
     overflow: hidden;
     padding: 0;
     height: 300px;
@@ -59,6 +60,23 @@
 
 .main
 
+.sidebar-2{
+    font-family: 'Malgun Gothic';
+    float: right;
+    width: 168px;
+    background-color: #ffd3d3;
+    text-align: left;
+    text-weight: bold;
+    padding: 10px;
+    height: 300px;
+}
+
+
 .footer{
-    font-family: 'Malgun Gothic'
+    font-family: 'Malgun Gothic';
+    color:aliceblue;
+    text-align: center;
+    background-color: rgb(160, 50, 50);
+    padding: 15px;
+    font-size: 12px;
 }
