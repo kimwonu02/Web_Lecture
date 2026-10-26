@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    color: #222;
+    background-color: #ffffff;
+}
+
+/* 상단 헤더 */
+.header {
+    background-color: #722622;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+    height: 140px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.header p {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+/* 메뉴 */
+.menu {
+    display: flex;
+    background-color: #8f2924;
+    color: white;
+    height: 54px;
+}
+
+.menu-option {
+    flex: 1;
+    text-align: center;
+    padding: 17px 10px;
+    border-right: 1px solid #d9a19e;
+}
+
+.menu-option:last-child {
+    border-right: none;
+}
+
+/* 본문 전체 영역 */
+.container {
+    display: flex;
+    min-height: 345px;
+}
+
+/* 왼쪽 프로필 영역 */
+.sidebar-1 {
+    width: 20%;
+    background-color: #f8e4e3;
+    padding: 10px 20px;
+}
+
+.sidebar-1 h3 {
+    color: #8f2924;
+    margin-top: 14px;
+    margin-bottom: 15px;
+}
+
+.sidebar-1 p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* 가운데 프로젝트 영역 */
+.main {
+    width: 60%;
+    background-color: #fffafa;
+    padding: 15px 24px;
+}
+
+.main h2 {
+    color: #8f2924;
+    margin-bottom: 20px;
+}
+
+/* 프로젝트 카드 */
+.article-1,
+.article-2 {
+    background-color: #fff1f1;
+    border: 1px solid #f0aaaa;
+    padding: 16px;
+    margin-bottom: 19px;
+}
+
+.main h3 {
+    margin: 0 0 4px 0;
+    font-size: 20px;
+}
+
+.main p {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* 오른쪽 기술 영역 */
+.sidebar-2 {
+    width: 20%;
+    background-color: #f8e4e3;
+    padding: 10px 20px;
+}
+
+.sidebar-2 h3 {
+    color: #8f2924;
+    margin-top: 14px;
+    margin-bottom: 15px;
+}
+
+.sidebar-2 p {
+    margin: 12px 0;
+    line-height: 1.4;
+}
+
+/* 하단 푸터 */
+.footer {
+    background-color: #40110f;
+    color: white;
+    text-align: center;
+    padding: 24px 10px;
+    min-height: 64px;
+}
