@@ -4,7 +4,12 @@
 
 .item_01{
     float: left;
-    margin: 0 3px;
-    padding: 10px;
     border: 1px solid black;
+    width: 500px;
+    height: 100px;
+}
+
+.margin_02{
+    margin: 0 auto;
+    width: 500px;
 }
