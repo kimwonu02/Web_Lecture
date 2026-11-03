@@ -48,12 +48,12 @@
 // callTenTimes(fun);
 
 //객체 자료형을 한 번에 저장 키를 기반으로 자료를 저장.
-
+// 객체 선언
 let person = {
-    name: '윤인성',
+    name: '김원우',
     eat: function(food){
-        alert(food + '을/를 먹습니다.');
+        alert(this.name + '가 ' + food + ' 을/를 먹습니다.');
     }
 };
-
+//매서드 호출
 person.eat('밥');
